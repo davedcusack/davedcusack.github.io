@@ -1,0 +1,729 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+p {
+  color: #e2e2e2;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Open Sans, sans-serif;
+}
+
+.medium-heading {
+  color: #661a40;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: Dahlia, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.medium-heading.lineup {
+  margin-top: 20px;
+}
+
+.getting-married-statement {
+  background-color: #444;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/no_1_pery_square_bar_resized_for_website.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex: 1;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  font-family: Apercu, sans-serif;
+  display: flex;
+}
+
+.getting-married-statement.big-day {
+  background-image: linear-gradient(rgba(51, 51, 51, .2), rgba(51, 51, 51, .2)), url('../images/Georgian_House_at_Pery_SquareLimerick-BW.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.getting-married-statement.places-to-stay {
+  background-image: linear-gradient(rgba(51, 51, 51, .2), rgba(51, 51, 51, .2)), url('../images/no_1_pery_square_long_room_4.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.flex-wrapper {
+  height: 88vh;
+  flex-direction: column;
+  display: flex;
+}
+
+.flex-wrapper._70vh {
+  height: 70vh;
+}
+
+.getting-married-wrapper {
+  grid-row-gap: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
+.content-section {
+  background-color: #f7f7f7;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.content-section.white {
+  background-color: #fff;
+}
+
+.small-heading {
+  color: #f7f7f7;
+  text-align: center;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Apercu, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.cta {
+  color: #661a40;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #661a40;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 16px 32px;
+  font-family: Apercu, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: background-color .2s;
+}
+
+.cta:hover {
+  color: #fff;
+  background-color: #661a40;
+}
+
+.cta.rsvp {
+  color: #f7f7f7;
+  letter-spacing: 1.5px;
+  border-color: #f7f7f7;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 16px 48px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cta.rsvp:hover {
+  border-style: solid;
+  border-color: #661a40;
+}
+
+.content-wrapper {
+  max-width: 1140px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.back-to-top {
+  z-index: 10;
+  width: 125px;
+  color: #f7f7f7;
+  text-align: center;
+  background-color: #661a40;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Apercu, sans-serif;
+  font-weight: 700;
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.footer-section {
+  padding-top: 56px;
+  padding-bottom: 96px;
+}
+
+.footer-container {
+  max-width: 1140px;
+}
+
+.footer-heading {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-family: Apercu, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-body {
+  color: #661a40;
+  text-align: left;
+  font-family: Apercu, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.heading-big {
+  color: #f7f7f7;
+  letter-spacing: 1px;
+  font-family: Dahlia, sans-serif;
+  font-size: 96px;
+  line-height: 104px;
+}
+
+.lineup-section {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.body-big {
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: Apercu, sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.body-medium {
+  color: #661a40;
+  text-align: center;
+  letter-spacing: 0;
+  margin-top: 0;
+  font-family: Apercu, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.heading-medium {
+  text-align: center;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: Dahlia, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.cta-small {
+  color: #661a40;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #333;
+  flex-flow: row;
+  flex: 0 auto;
+  justify-content: space-around;
+  align-self: stretch;
+  align-items: stretch;
+  margin-top: auto;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Apercu, sans-serif;
+  font-weight: 700;
+  transition: background-color .2s;
+  display: flex;
+  position: static;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+}
+
+.cta-small:hover {
+  color: #fff;
+  background-color: #661a40;
+}
+
+.place-content {
+  height: 300px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 32px;
+  display: flex;
+}
+
+.footer-link {
+  color: #661a40;
+  border-bottom: 1px solid #661a40;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.footer-link:hover {
+  color: #333;
+}
+
+.light-grey {
+  color: #999;
+}
+
+.navbar-no-shadow {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: static;
+}
+
+.navbar-no-shadow-container {
+  z-index: 5;
+  width: 100%;
+  max-width: 1140px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.container-regular {
+  width: 100%;
+  max-width: 1260px;
+  min-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav-menu-2 {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.nav-link-2 {
+  color: #661a40;
+  letter-spacing: .25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-family: Apercu, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.nav-link-2:hover {
+  color: rgba(26, 27, 31, .75);
+}
+
+.nav-link-2:focus-visible {
+  outline-offset: 0px;
+  color: #0050bd;
+  border-radius: 4px;
+  outline: 2px solid #0050bd;
+}
+
+.nav-link-2[data-wf-focus-visible] {
+  outline-offset: 0px;
+  color: #0050bd;
+  border-radius: 4px;
+  outline: 2px solid #0050bd;
+}
+
+.nav-button-wrapper {
+  margin-left: 120px;
+}
+
+.button-primary {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #661a40;
+  padding: 12px 25px;
+  font-family: Apercu, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  transition: all .2s;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #32343a;
+}
+
+.button-primary:active {
+  background-color: #43464d;
+}
+
+.body {
+  font-family: Montserrat, sans-serif;
+}
+
+.accomodation {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 32px;
+}
+
+.map {
+  height: 500px;
+}
+
+.limerick-banner {
+  min-height: 50vh;
+  background-color: #444;
+  background-image: url('../images/9c4719e953924ce5a05a4982fea326da.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  font-family: Apercu, sans-serif;
+  display: flex;
+}
+
+html.w-mod-js [data-ix="fade-in-1"], html.w-mod-js [data-ix="fade-in-2"], html.w-mod-js [data-ix="fade-in-3"] {
+  opacity: 0;
+  transform: translate(0, -30px);
+}
+
+@media screen and (max-width: 991px) {
+  .getting-married-statement {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .content-section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .small-heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-wrapper {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .footer-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .lineup-section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .place-content {
+    height: 350px;
+    min-height: 500px;
+  }
+
+  .giant-date {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-menu-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .nav-menu-2 {
+    grid-row-gap: 16px;
+    background-color: #fff;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    display: flex;
+  }
+
+  .nav-link-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-button-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu-button {
+    padding: 12px;
+  }
+
+  .menu-button.w--open {
+    color: #fff;
+    background-color: #661a40;
+  }
+
+  .accomodation {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .limerick-banner {
+    min-height: 40vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .getting-married-statement {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .getting-married-wrapper {
+    grid-row-gap: 24px;
+  }
+
+  .content-section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .small-heading {
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-size: 24px;
+    display: flex;
+  }
+
+  .cta, .cta.rsvp {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .back-to-top {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .footer-section {
+    margin-bottom: 0;
+  }
+
+  .footer-heading, .footer-body {
+    text-align: center;
+  }
+
+  .heading-big {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .lineup-section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .body-medium {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .heading-medium {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cta-small {
+    margin-top: auto;
+    position: static;
+  }
+
+  .place-content {
+    height: auto;
+    min-height: auto;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .footer-column {
+    margin-top: 30px;
+  }
+
+  .giant-date {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    padding-left: 0;
+  }
+
+  .nav-menu-2 {
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-left: 0;
+  }
+
+  .nav-link-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .mobile-margin-top-10 {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .getting-married-statement {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .content-section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .small-heading {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+  .cta.rsvp {
+    width: 100%;
+  }
+
+  .content-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .heading-big {
+    text-align: center;
+    font-size: 72px;
+    line-height: 80px;
+  }
+
+  .lineup-section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .giant-date {
+    padding: 0;
+  }
+
+  .nav-menu-2 {
+    flex-direction: column;
+  }
+
+  .nav-button-wrapper {
+    width: auto;
+  }
+
+  .accomodation {
+    grid-template-columns: 1fr;
+  }
+}
+
+#w-node-c5dd2000-4d65-b1b2-b4fe-231e8472dd05-0c1aea08 {
+  justify-self: start;
+}
+
+#w-node-_4d4b0344-d6ef-3c88-faaf-7d94b5b706ea-0c1aea08 {
+  justify-self: center;
+}
+
+
+@font-face {
+  font-family: 'Dahlia';
+  src: url('../fonts/dahlia-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dahlia';
+  src: url('../fonts/dahlia-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dahlia';
+  src: url('../fonts/dahlia-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tiemposheadline medium';
+  src: url('../fonts/TiemposHeadline-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url('../fonts/ApercuLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url('../fonts/ApercuRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url('../fonts/ApercuBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
